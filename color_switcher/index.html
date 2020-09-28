@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Template css Files -->
+	<link rel="stylesheet" href="color_switcher/css/style.css" type="text/css">
+  <link rel="stylesheet" href="color_switcher/css/skins/pink.css" type="text/css">
+  <!-------Live Style Switcher-------->
+  <link rel="stylesheet" class="alternate-style" title="pink" href="color_switcher/css/skins/pink.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="blue" href="color_switcher/css/skins/blue.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="orange" href="color_switcher/css/skins/orange.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="yellow" href="color_switcher/css/skins/yellow.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="green" href="color_switcher/css/skins/green.css" type="text/css" disabled>
+  <link rel="stylesheet" href="color_switcher/css/styleSwitcher.css" type="text/css">
+</head>
+<body>
+
+  <!-----Live Style Switcher------------------>
+  <div class="style-switcher">
+    <div class="toggle-style-switcher">
+      <i class="fa fa-cog fa-spin"></i>
+    </div>
+    <h5>Style Switcher</h5>
+    <ul>
+      <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')">
+     </a></li>
+     <li><a href="javascript:void(0);" title="blur" style="background-color: #2196f3;" onclick="setActiveStyle('blue')">
+     </a></li>
+     <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')">
+     </a></li>
+     <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')">
+     </a></li>
+     <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')">
+     </a></li>
+    </ul>
+    <h5>Body Skin</h5>
+    <label>
+      <input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+      Light
+    </label>
+    <label>
+     <input type="radio" class="body-skin" name="body-style" value="dark">
+     Dark
+   </label>
+  </div>
+  <!-------End Of Life Style Switcher------------------>
+
+  <!-----template js------>
+  <script src="color_switcher/js/script.js"></script>
+  <!-----Live Style js------------>
+  <script src="color_switcher/js/styleSwitcher.js"></script>
+</body>
+</html>
